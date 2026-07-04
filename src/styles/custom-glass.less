@@ -1,0 +1,16 @@
+// src/styles/custom-glass.less
+
+.glass-morphism {
+    // Semi-transparent dark background
+    background: rgba(15, 15, 20, 0.7); 
+    
+    // The "Textured Glass" effect
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    
+    // Subtle border to give it a "physical" edge
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+    
+    border-radius: 16px;
+}

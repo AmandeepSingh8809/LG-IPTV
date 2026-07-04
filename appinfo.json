@@ -1,0 +1,10 @@
+{
+	"id": "com.scrappy.iptv",
+	"version": "1.0.0",
+	"vendor": "The Scrappy Engineer",
+	"type": "web",
+	"main": "index.html",
+	"title": "Scrappy IPTV",
+	"icon": "icon.png",
+	"requiredMemory": 512
+}
