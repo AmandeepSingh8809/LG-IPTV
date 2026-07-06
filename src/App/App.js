@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-bind */
 import { useState, useCallback } from 'react';
-import LoginView from '../views/LoginView/LoginView';
-import MainPlayerView from '../views/MainPlayerView/MainPlayerView';
+import LoginView from '../views/LoginView/LoginView'; 
+import MainPlayerView from '../MainPlayerView'; // <-- Updated import path
 import { authService } from '../services/authService';
 
 const App = () => {
